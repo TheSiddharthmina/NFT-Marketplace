@@ -156,36 +156,34 @@ main {
 #LoginForm button:hover {
   background-color: #45a049;
 }
-
 #signupForm {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #signupForm label {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 #signupForm input {
-  padding: 8px;
-  margin-bottom: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 #signupForm button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 #signupForm button:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
-
 
 
 
