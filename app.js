@@ -141,10 +141,13 @@ window.addEventListener('click', (event) => {
 
 // Handle form submission
 document.getElementById('loginForm').addEventListener('submit', (event) => {
-    event.preventDefault();
-    // Add your login logic here (e.g., validate credentials, make API call, etc.)
-    // After successful login, you can close the modal and perform any other actions
+    event.preventDefault()
     closeModal('loginModal');
+});
+// Handle form submission for signup
+document.getElementById('signupForm').addEventListener('submit', (event) => {
+    event.preventDefault()
+    closeModal('signupModal');
 });
 
 
